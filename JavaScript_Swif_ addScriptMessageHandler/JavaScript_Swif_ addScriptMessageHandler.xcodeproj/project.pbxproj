@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A7EA8AC1E9A8212003DC957 /* HLAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EA8AB1E9A8212003DC957 /* HLAudioPlayer.swift */; };
+		6A7EA8AE1E9A89D1003DC957 /* shake_sound_male.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EA8AD1E9A89D1003DC957 /* shake_sound_male.wav */; };
+		6AE65EC61E9A2964005C48BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE65EC51E9A2964005C48BD /* AppDelegate.swift */; };
+		6AE65EC81E9A2964005C48BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE65EC71E9A2964005C48BD /* ViewController.swift */; };
+		6AE65ECB1E9A2964005C48BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE65EC91E9A2964005C48BD /* Main.storyboard */; };
+		6AE65ECD1E9A2964005C48BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE65ECC1E9A2964005C48BD /* Assets.xcassets */; };
+		6AE65ED01E9A2964005C48BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE65ECE1E9A2964005C48BD /* LaunchScreen.storyboard */; };
+		6AE65EDB1E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE65EDA1E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerTests.swift */; };
+		6AE65EE61E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE65EE51E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerUITests.swift */; };
+		6AE65EF41E9A2A22005C48BD /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE65EF31E9A2A22005C48BD /* WKWebViewController.swift */; };
+		6AE65EF61E9A2D6C005C48BD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6AE65EF51E9A2D6C005C48BD /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AE65ED71E9A2964005C48BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AE65EBA1E9A2964005C48BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AE65EC11E9A2964005C48BD;
+			remoteInfo = "JavaScript_Swif_ addScriptMessageHandler";
+		};
+		6AE65EE21E9A2964005C48BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AE65EBA1E9A2964005C48BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AE65EC11E9A2964005C48BD;
+			remoteInfo = "JavaScript_Swif_ addScriptMessageHandler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A7EA8AB1E9A8212003DC957 /* HLAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLAudioPlayer.swift; sourceTree = "<group>"; };
+		6A7EA8AD1E9A89D1003DC957 /* shake_sound_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_sound_male.wav; sourceTree = "<group>"; };
+		6AE65EC21E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JavaScript_Swif_ addScriptMessageHandler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE65EC51E9A2964005C48BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AE65EC71E9A2964005C48BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6AE65ECA1E9A2964005C48BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AE65ECC1E9A2964005C48BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AE65ECF1E9A2964005C48BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AE65ED11E9A2964005C48BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE65ED61E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JavaScript_Swif_ addScriptMessageHandlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE65EDA1E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScript_Swif__addScriptMessageHandlerTests.swift; sourceTree = "<group>"; };
+		6AE65EDC1E9A2964005C48BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE65EE11E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JavaScript_Swif_ addScriptMessageHandlerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE65EE51E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScript_Swif__addScriptMessageHandlerUITests.swift; sourceTree = "<group>"; };
+		6AE65EE71E9A2964005C48BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE65EF31E9A2A22005C48BD /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		6AE65EF51E9A2D6C005C48BD /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AE65EBF1E9A2964005C48BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE65ED31E9A2964005C48BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE65EDE1E9A2964005C48BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AE65EB91E9A2964005C48BD = {
+			isa = PBXGroup;
+			children = (
+				6AE65EC41E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandler */,
+				6AE65ED91E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerTests */,
+				6AE65EE41E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerUITests */,
+				6AE65EC31E9A2964005C48BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AE65EC31E9A2964005C48BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AE65EC21E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandler.app */,
+				6AE65ED61E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerTests.xctest */,
+				6AE65EE11E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AE65EC41E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandler */ = {
+			isa = PBXGroup;
+			children = (
+				6AE65EC51E9A2964005C48BD /* AppDelegate.swift */,
+				6AE65EC71E9A2964005C48BD /* ViewController.swift */,
+				6AE65EC91E9A2964005C48BD /* Main.storyboard */,
+				6AE65EF31E9A2A22005C48BD /* WKWebViewController.swift */,
+				6A7EA8AB1E9A8212003DC957 /* HLAudioPlayer.swift */,
+				6AE65ECC1E9A2964005C48BD /* Assets.xcassets */,
+				6AE65ECE1E9A2964005C48BD /* LaunchScreen.storyboard */,
+				6AE65ED11E9A2964005C48BD /* Info.plist */,
+				6A7EA8AD1E9A89D1003DC957 /* shake_sound_male.wav */,
+				6AE65EF51E9A2D6C005C48BD /* index.html */,
+			);
+			path = "JavaScript_Swif_ addScriptMessageHandler";
+			sourceTree = "<group>";
+		};
+		6AE65ED91E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AE65EDA1E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerTests.swift */,
+				6AE65EDC1E9A2964005C48BD /* Info.plist */,
+			);
+			path = "JavaScript_Swif_ addScriptMessageHandlerTests";
+			sourceTree = "<group>";
+		};
+		6AE65EE41E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AE65EE51E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerUITests.swift */,
+				6AE65EE71E9A2964005C48BD /* Info.plist */,
+			);
+			path = "JavaScript_Swif_ addScriptMessageHandlerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AE65EC11E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE65EEA1E9A2964005C48BD /* Build configuration list for PBXNativeTarget "JavaScript_Swif_ addScriptMessageHandler" */;
+			buildPhases = (
+				6AE65EBE1E9A2964005C48BD /* Sources */,
+				6AE65EBF1E9A2964005C48BD /* Frameworks */,
+				6AE65EC01E9A2964005C48BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JavaScript_Swif_ addScriptMessageHandler";
+			productName = "JavaScript_Swif_ addScriptMessageHandler";
+			productReference = 6AE65EC21E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AE65ED51E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE65EED1E9A2964005C48BD /* Build configuration list for PBXNativeTarget "JavaScript_Swif_ addScriptMessageHandlerTests" */;
+			buildPhases = (
+				6AE65ED21E9A2964005C48BD /* Sources */,
+				6AE65ED31E9A2964005C48BD /* Frameworks */,
+				6AE65ED41E9A2964005C48BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AE65ED81E9A2964005C48BD /* PBXTargetDependency */,
+			);
+			name = "JavaScript_Swif_ addScriptMessageHandlerTests";
+			productName = "JavaScript_Swif_ addScriptMessageHandlerTests";
+			productReference = 6AE65ED61E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AE65EE01E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE65EF01E9A2964005C48BD /* Build configuration list for PBXNativeTarget "JavaScript_Swif_ addScriptMessageHandlerUITests" */;
+			buildPhases = (
+				6AE65EDD1E9A2964005C48BD /* Sources */,
+				6AE65EDE1E9A2964005C48BD /* Frameworks */,
+				6AE65EDF1E9A2964005C48BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AE65EE31E9A2964005C48BD /* PBXTargetDependency */,
+			);
+			name = "JavaScript_Swif_ addScriptMessageHandlerUITests";
+			productName = "JavaScript_Swif_ addScriptMessageHandlerUITests";
+			productReference = 6AE65EE11E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AE65EBA1E9A2964005C48BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiaovv;
+				TargetAttributes = {
+					6AE65EC11E9A2964005C48BD = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = VK4K7AEH2C;
+						ProvisioningStyle = Automatic;
+					};
+					6AE65ED51E9A2964005C48BD = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6AE65EC11E9A2964005C48BD;
+					};
+					6AE65EE01E9A2964005C48BD = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6AE65EC11E9A2964005C48BD;
+					};
+				};
+			};
+			buildConfigurationList = 6AE65EBD1E9A2964005C48BD /* Build configuration list for PBXProject "JavaScript_Swif_ addScriptMessageHandler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AE65EB91E9A2964005C48BD;
+			productRefGroup = 6AE65EC31E9A2964005C48BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AE65EC11E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandler */,
+				6AE65ED51E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerTests */,
+				6AE65EE01E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AE65EC01E9A2964005C48BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE65ED01E9A2964005C48BD /* LaunchScreen.storyboard in Resources */,
+				6AE65EF61E9A2D6C005C48BD /* index.html in Resources */,
+				6A7EA8AE1E9A89D1003DC957 /* shake_sound_male.wav in Resources */,
+				6AE65ECD1E9A2964005C48BD /* Assets.xcassets in Resources */,
+				6AE65ECB1E9A2964005C48BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE65ED41E9A2964005C48BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE65EDF1E9A2964005C48BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AE65EBE1E9A2964005C48BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE65EF41E9A2A22005C48BD /* WKWebViewController.swift in Sources */,
+				6A7EA8AC1E9A8212003DC957 /* HLAudioPlayer.swift in Sources */,
+				6AE65EC81E9A2964005C48BD /* ViewController.swift in Sources */,
+				6AE65EC61E9A2964005C48BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE65ED21E9A2964005C48BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE65EDB1E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE65EDD1E9A2964005C48BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE65EE61E9A2964005C48BD /* JavaScript_Swif__addScriptMessageHandlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AE65ED81E9A2964005C48BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AE65EC11E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandler */;
+			targetProxy = 6AE65ED71E9A2964005C48BD /* PBXContainerItemProxy */;
+		};
+		6AE65EE31E9A2964005C48BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AE65EC11E9A2964005C48BD /* JavaScript_Swif_ addScriptMessageHandler */;
+			targetProxy = 6AE65EE21E9A2964005C48BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AE65EC91E9A2964005C48BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AE65ECA1E9A2964005C48BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AE65ECE1E9A2964005C48BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AE65ECF1E9A2964005C48BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AE65EE81E9A2964005C48BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AE65EE91E9A2964005C48BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AE65EEB1E9A2964005C48BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VK4K7AEH2C;
+				INFOPLIST_FILE = "JavaScript_Swif_ addScriptMessageHandler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiao.JavaScript-Swif--addScriptMessageHandler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6AE65EEC1E9A2964005C48BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VK4K7AEH2C;
+				INFOPLIST_FILE = "JavaScript_Swif_ addScriptMessageHandler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiao.JavaScript-Swif--addScriptMessageHandler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6AE65EEE1E9A2964005C48BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JavaScript_Swif_ addScriptMessageHandlerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiao.JavaScript-Swif--addScriptMessageHandlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScript_Swif_ addScriptMessageHandler.app/JavaScript_Swif_ addScriptMessageHandler";
+			};
+			name = Debug;
+		};
+		6AE65EEF1E9A2964005C48BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JavaScript_Swif_ addScriptMessageHandlerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiao.JavaScript-Swif--addScriptMessageHandlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScript_Swif_ addScriptMessageHandler.app/JavaScript_Swif_ addScriptMessageHandler";
+			};
+			name = Release;
+		};
+		6AE65EF11E9A2964005C48BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "JavaScript_Swif_ addScriptMessageHandlerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiao.JavaScript-Swif--addScriptMessageHandlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "JavaScript_Swif_ addScriptMessageHandler";
+			};
+			name = Debug;
+		};
+		6AE65EF21E9A2964005C48BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "JavaScript_Swif_ addScriptMessageHandlerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiao.JavaScript-Swif--addScriptMessageHandlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "JavaScript_Swif_ addScriptMessageHandler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AE65EBD1E9A2964005C48BD /* Build configuration list for PBXProject "JavaScript_Swif_ addScriptMessageHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE65EE81E9A2964005C48BD /* Debug */,
+				6AE65EE91E9A2964005C48BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE65EEA1E9A2964005C48BD /* Build configuration list for PBXNativeTarget "JavaScript_Swif_ addScriptMessageHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE65EEB1E9A2964005C48BD /* Debug */,
+				6AE65EEC1E9A2964005C48BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE65EED1E9A2964005C48BD /* Build configuration list for PBXNativeTarget "JavaScript_Swif_ addScriptMessageHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE65EEE1E9A2964005C48BD /* Debug */,
+				6AE65EEF1E9A2964005C48BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE65EF01E9A2964005C48BD /* Build configuration list for PBXNativeTarget "JavaScript_Swif_ addScriptMessageHandlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE65EF11E9A2964005C48BD /* Debug */,
+				6AE65EF21E9A2964005C48BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AE65EBA1E9A2964005C48BD /* Project object */;
+}
