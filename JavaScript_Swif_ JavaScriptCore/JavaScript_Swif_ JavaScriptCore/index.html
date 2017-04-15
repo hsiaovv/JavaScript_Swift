@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    </head>
+    
+    <body>
+        <h1>这是按钮调用</h1>
+        <input type="button" value="扫一扫" onclick="JavaScriptCoreBridge.scanClick()" />
+        <input type="button" value="获取定位" onclick="JavaScriptCoreBridge.locationClick()" />
+        <input type="button" value="修改背景色" onclick="colorClick()" />
+        <input type="button" value="分享" onclick="shareClick()" />
+        <input type="button" value="支付" onclick="payClick()" />
+        <input type="button" value="摇一摇" onclick="JavaScriptCoreBridge.shake()" />
+        <input type="button" value="返回" onclick="JavaScriptCoreBridge.goBack()" />
+        <input type="button" value="输出arr" onclick="showArr()" />
+        
+        <h1>这是文件上传</h1>
+
+        <input type="file" />
+        
+        <h1>这是回调结果展示区</h1>
+        <textarea id ="returnValue" type="value" rows="5" cols="50">
+        
+        </textarea>
+        
+        <h4>竖直方向的表头：</h4>
+        <table border="1" style="width:300px;height:600px">
+            <tr>
+                <th>姓名</th>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <th>电话</th>
+                <td>555 77 854</td>
+            </tr>
+            <tr>
+                <th>传真</th>
+                <td>555 77 855</td>
+            </tr>
+        </table>
+
+        <script language="javascript">
+            
+            var shareClick = function () {
+
+                JavaScriptCoreBridge.shareContentUrl('测试分享的标题','测试分享的内容','http://www.baidu.com');
+            }
+
+
+            function setLocation(location) {
+                asyncAlert(location);
+                document.getElementById("returnValue").value = location;
+            }
+
+            function getQRCode(result) {
+                asyncAlert(result);
+                document.getElementById("returnValue").value = result;
+            }
+
+            function colorClick() {
+
+                var colorInfo = JSON.stringify({"red": "67", "green": "205", "blue": "12", "alpha":"0.5"});
+
+                JavaScriptCoreBridge.changeColor(colorInfo);
+            }
+
+            function payClick() {
+                var payInfo = JSON.stringify({"orderNo": "201511120981234", "channel": "wx", "amount": "12", "subject":"黑色毛衣"});
+
+                JavaScriptCoreBridge.pay(payInfo);
+            }
+
+            function payResult(str) {
+                asyncAlert(str);
+                document.getElementById("returnValue").value = str;
+            }
+
+            function shareResult(channel_id,share_channel,share_url) {
+                var content = channel_id+","+share_channel+","+share_url;
+                asyncAlert(content);
+                document.getElementById("returnValue").value = content;
+            }
+
+
+            function showArr(){
+                asyncAlert(arr);
+            }
+
+            function asyncAlert(content) {
+                setTimeout(function(){
+                    alert(content);
+                },1);
+            }
+
+
+        </script>
+        
+    </body>
+</html>

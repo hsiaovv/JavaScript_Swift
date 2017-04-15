@@ -1,0 +1,38 @@
+
+<!--  JS 和 OC 交互 之 JavaScriptCore 框架 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title> 来自html中的jsCallOC标题</title>
+            
+            </head>
+    
+    <body>
+        
+<!--     点击JS 通过 JSExport协议 传值  -->
+        <div style="margin-top: 20px">
+            <h2>JavaScript与OC的交互</h2>
+            <input type="button" value="点击JS的按钮，通过JSExport协议 把值传给OC" onclick="Native.callme('OC？OC？这是JS的JSExport协议 你能收到吗？？')">
+                </div>
+        
+<!--     点击JS 通过 Block 传值  -->
+        <div style="margin-top: 20px">
+            <input type="button" value="点击JS的按钮，通过Block 把值传给OC" onclick="deliverValue('OC？OC？这是JS的Block 你能收到吗？？')">
+                </div>
+        
+        
+        <script>
+           
+            // 点击 OC 调 JS 的函数
+            var shareCallBack = function(m){
+                
+                return m*m
+            }
+        
+        </script>
+    </body>
+    
+    
+</html>
