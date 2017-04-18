@@ -15,6 +15,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func webViewClick(_ sender: UIButton) {
+        
+        let vc =  WebViewController()
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
+    @IBAction func wkWebViewClick(_ sender: UIButton) {
+        
+        let vc =  WKWebViewController()
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
